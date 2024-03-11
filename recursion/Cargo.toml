@@ -33,9 +33,13 @@ starky = { path = "../starky", default-features = false }
 plonky = { path = "../plonky", default-features = false }
 algebraic = { path = "../algebraic", default-features = false }
 
-powdr-pil-analyzer = { git = "https://github.com/eigmax/powdr.git", branch = "main" }
-powdr-number       = { git = "https://github.com/eigmax/powdr.git", branch = "main" }
-powdr-ast          = { git = "https://github.com/eigmax/powdr.git", branch = "main" }
+#powdr-pil-analyzer = { git = "https://github.com/eigmax/powdr.git", branch = "main" }
+#powdr-number       = { git = "https://github.com/eigmax/powdr.git", branch = "main" }
+#powdr-ast			= { git = "https://github.com/eigmax/powdr.git", branch = "main" }
+
+powdr-pil-analyzer =         { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
+powdr-number =         { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
+powdr-ast =         { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
 
 [dev-dependencies]
 env_logger = "0.10"

@@ -16,11 +16,11 @@ log = "0.4.0"
 #powdr-riscv-executor = { git = "https://github.com/powdr-labs/powdr", rev = "97ea8d0" }
 #powdr-number =         { git = "https://github.com/powdr-labs/powdr", rev = "97ea8d0" }
 
-powdr-backend =        { git = "https://github.com/eigmax/powdr", branch = "main" }
-powdr-pipeline =       { git = "https://github.com/eigmax/powdr", branch = "main" }
-powdr-riscv =          { git = "https://github.com/eigmax/powdr", branch = "main" }
-powdr-riscv-executor = { git = "https://github.com/eigmax/powdr", branch = "main" }
-powdr-number =         { git = "https://github.com/eigmax/powdr", branch = "main" }
+powdr-backend =        { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
+powdr-pipeline =       { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
+powdr-riscv =          { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
+powdr-riscv-executor = { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
+powdr-number =         { git = "https://github.com/powdr-labs/powdr", rev = "da66acac0ce29bf15ee5ab7f084f213ed94dff92" }
 
 hex = "0.4.3"
 thiserror = "1.0"
